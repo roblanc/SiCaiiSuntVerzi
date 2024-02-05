@@ -2,3 +2,33 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.green-button {
+  background-color: #4CAF50;
+  /* Green background */
+  border: none;
+  /* No borders */
+  color: white;
+  /* White text */
+  padding: 15px 32px;
+  /* Top and bottom padding of 15px, left and right padding of 32px */
+  text-align: center;
+  /* Centered text */
+  text-decoration: none;
+  /* No underline on text */
+  display: inline-block;
+  /* Allows setting dimensions */
+  font-size: 46px;
+  /* Text size */
+  margin: 4px 2px;
+  /* Outer spacing */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  border-radius: 5px;
+  /* Rounded corners */
+}
+
+.green-button:hover {
+  background-color: #45a049;
+  /* Darker shade of green on hover */
+}
